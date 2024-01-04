@@ -1,8 +1,6 @@
-
-function padre() {
-    let variablePadre = "Padre";
-    function hijo() {
-        console.log(variablePadre); // Accesible aquí
-    }
-    hijo();
+function mostrarLocal() {
+    let local = "Variable Local";
+    console.log(local);
 }
+
+console.log(local); // ReferenceError: local is not defined
